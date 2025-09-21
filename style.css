@@ -1,0 +1,115 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1f1f1f;
+    color: #00ffcc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #00ffcc;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+/* Seções principais */
+main section {
+    background-color: #1a1a1a;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,255,204,0.2);
+}
+
+/* Imagem */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: 2px solid #00ffcc;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #00ffcc;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #00ffcc;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+fieldset {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #00ffcc;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+    color: #00ffcc;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Botão */
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #00ffcc;
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00bfa5;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+}
