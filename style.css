@@ -113,3 +113,31 @@ footer {
     margin-top: 40px;
     color: #777;
 }
+
+/* Flexbox Container */
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Alinha itens em coluna  (empilha um sobre o outro)*/
+    gap: 15px; /* Espaçamento entre os itens */
+    margin: 20px 0; /* Espaçamento acima e abaixo do container */
+}
+
+.item {
+    padding: 20px; /* Espaçamento interno */
+    margin: 5px; /* Espaçamento externo */
+    border-radius: 8px;
+    background-color: #1f1f1f;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Bordas diferentes para cada item */
+
+.item1 {
+    border: 3px solid #f44444; /* Vermelho */
+}
+
+.item2 {
+    border: 3px solid #448aaf; /* Azul */
+}
